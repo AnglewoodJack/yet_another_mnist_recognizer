@@ -28,5 +28,5 @@ net.fit(x_train=train_images, y_train=train_labels,
 		batch_size=32, num_epochs=20, learning_rate=0.1)
 
 # сохраненние модели в pickle
-with open('model.pickle', 'wb') as handle:
+with open('adv_model.pickle', 'wb') as handle:
 	pickle.dump(net, handle)
