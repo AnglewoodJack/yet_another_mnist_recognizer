@@ -11,7 +11,7 @@ from pathlib import Path
 from preprocess.deskew import apply_deskew
 (train_images, train_labels), (test_images, test_labels) = mnist.load_data()
 
-# Пусть к файлу обученной модели
+# Путь к файлу обученной модели
 path = Path("/Users/ivanandrusin/Desktop/NeuralNetwork/benchmark/model_trained")
 path.mkdir(exist_ok=True, parents=True)
 assert path.exists()
